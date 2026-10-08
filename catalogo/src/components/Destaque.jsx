@@ -1,8 +1,10 @@
 function Destaque(props){
-    return<>
-    <p>{props.titulo}</p>
-    <p>{props.texto}</p>
-    </>
+    return (
+        <div className="card destaque">
+            <h3>{props.titulo}</h3>
+            <p>{props.texto}</p>
+        </div>
+    )
 }
 
 export default Destaque
